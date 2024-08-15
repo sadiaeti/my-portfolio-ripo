@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navheader{
+    width: 100vw;
+    height: 100vh;
+    background: cadetblue;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+   
+}
+nav ul li {
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    padding-right: 20px;
+}
+nav ul li a{
+    font-weight: bold;
+    color: white;
+}
+.logo{
+font-size: 30px;
+font-weight: bold;
+cursor: pointer;
+}
+.logo::first-letter{
+    font-size: 40px;
+    border: 2px solid black;
+    border-right: transparent;
+    color: orange;
+}
+.navbtn{
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: White;
+    font-weight: 700px;
+    text-transform: uppercase;
+}
+.navbtn :hover{
+    background: white;
+    color: orange;
+}
+.aboutme{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+}
+.aboutme h1{
+    font-size: 60px;
+    font-weight: 800px;
+    line-height: 100px;
+}
+.aboutme h1 span{
+    color: orange;
+    font-size: 90px;
+}
+.aboutme p{
+    font-size: 22px;
+    width: 70%;
+}
+.aboutme a{
+    position: absolute;
+    width: 180px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    top: 200px;
+    color: orange;
+    text-align: center;
+
+}
+.image{
+    position: absolute;
+    top: 20%;
+    left: 64%;
+}
+.image img{
+    border-radius: 80px;
+}
+.navheader{
+    text-align: center;
+    
+}
+.myimg{
+    position: absolute;
+    left: 15%;
+    padding: 30px;
+    margin: 30px;
+}
+.myimg img{
+    border-radius: 50px;
+}
+.about{
+    background:rgb(63, 184, 188);
+    width: 100vw;
+    height: 100vh;
+}
+.about h1{
+    text-align: center;
+    font-weight: 100px;
+    padding-top: 100px;
+    margin-left: 150px;
+
+}
+.about h1 span{
+    color: orange;
+    font-size: 60px;
+}
+.about h4{
+    text-align: center;
+    width: 1550px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+.about p{
+    width: 400px;
+    padding: 10px;
+    margin-left: 700px;
+    font-size: 25px;
+}
+.about a{
+    position: absolute;
+    background: orange;
+    color:white;
+    left: 710px;
+    width: 100px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.servicecon{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(100, 141, 143);
+    display: flex;
+    justify-content: space-evenly;
+}
+.servicecon h1{
+    text-align: center;
+    position: absolute;
+    color: orange;
+    font-size: 60px;
+    margin-top: 5%;
+}
+.box{
+    height: 360px;
+    width: 300px;
+    background-color: rgb(126, 205, 207);
+    margin-top: 15%;
+    border-radius: 10%;
+    text-align: center;
+}
+.box img{
+    height:60px;
+    width: 60px;
+    margin: 15px;
+}
+.box h3{
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+}
+.box p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height:250x ;
+}
+.boxbtn{
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.portfolio{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(87, 161, 164);
+    padding: 6%;
+}
+.portfolio h1{
+    text-align: center;
+    color: orange;
+    font-size: 60px;
+}
+.portfolio p{
+    color: white;
+    font-size: 30px;
+    margin-left: 520px;
+}
+.btna{
+    border: 2px solid;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btnb{
+    border: 2px solid;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btnc{
+    border: 2px solid;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btnd{
+    border: 2px solid;
+    color: white;
+    padding: 10px;
+    border-radius: 5px; 
+}
+.navbtnn{
+    margin-left: 400px;
+
+}
+.image1{
+    margin-left: 3%;
+}
+.contact{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(215, 237, 246);
+    text-align: center;
+    padding: 6%;  
+}
+.contact h1{
+    font-size: 60px;
+    background-color: white;
+    width: 500px;
+    margin-left: 430px;
+}
+.contact p{
+    font-size: 15px;
+    padding:25px;
+}
+.contact input{
+    height: 40px;
+    width: 500px;
+    margin: 5px;
+}
+.contact select{
+    height: 40px;
+    width: 500px;
+    margin: 5px;
+}
+.contact textarea{
+    height: 40px;
+    width: 500px;
+    margin: 5px;
+}
+.contact button{
+    position: absolute;
+    top: 466%;
+    width: 100px;
+    height: 40px;
+    left: 47%;
+}
+
+
